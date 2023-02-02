@@ -1,0 +1,15 @@
+Number _factorial(Number a)
+{
+    Number result = 1;
+    if(a < 2)
+    {
+        result = 1;
+    }
+    else
+    {
+        result = a * _factorial((a-1));
+    }
+    result = result;
+}
+
+Number a = _factorial(3);
